@@ -1,0 +1,1 @@
+put armors.json, dungeons.json, weapons.json, mobs.json in this folder
