@@ -18,4 +18,12 @@ class EntityStats:
         self.dex: float = 1  # dexterity
         self.int: float = 1  # intelligence
         self.chr: float = 1  # charisma
+        self.lck: float = 1  # luck
 
+
+class Item:
+
+    def __init__(self, name: str, level: int, rarity: int):
+        self.name = name
+        self.level = level
+        self.rarity = rarity

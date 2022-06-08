@@ -1,0 +1,22 @@
+{
+  "traits": [
+    {
+      "name": "Idiot Savant",
+      "description": "TBD",
+      "requirements": {
+        "int": "<2",
+        "lck": ">7"
+      },
+      "effect": "TBD"
+    },
+    {
+      "name": "Terrifying presence",
+      "description": "You sometimes end a fight instantly making the enemy flee + unlocks special actions",
+      "requirements": {
+        "str": ">7",
+        "chr": ">7"
+      },
+      "effect": "TBD"
+    }
+  ]
+}

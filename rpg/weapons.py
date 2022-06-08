@@ -1,14 +1,15 @@
 import random
 from typing import List
 
-from rpg.generics import ItemStats, EntityStats
+from rpg.generics import ItemStats, EntityStats, Item
 from rpg.utils import load_json_into_object
 
 
-class Weapon:
+class Weapon(Item):
 
-    def __init__(self):
-        pass
+    def __init__(self, name: str, level: int, rarity: int, damage_stats: ItemStats):
+        super().__init__(name, level, rarity)
+        self.damage_stats = damage_stats
 
 
 class WeaponFactory:
@@ -24,4 +25,4 @@ class WeaponFactory:
 
     def generate(self, level: int, rarity: int):
         name = random.choice(self.names)
-
+        # TODO

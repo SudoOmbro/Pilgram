@@ -1,0 +1,43 @@
+{
+  "Longsword": {
+    "names": ["Sword", "Longsword"],
+    "multipliers": {
+      "pierce": 1.5,
+      "slash": 2,
+      "strike": 0.5
+    },
+    "scaling": {
+      "str": 1.4,
+      "dex": 1.5,
+      "int": 1
+    }
+  },
+  "Curved Sword": {
+    "names": ["Sabre", "Curved Sword"],
+    "multipliers": {
+      "pierce": 0.5,
+      "slash": 3,
+      "strike": 0.2,
+      "weight": 0.8
+    },
+    "scaling": {
+      "str": 1.2,
+      "dex": 2,
+      "int": 1
+    }
+  },
+  "Dagger": {
+    "names": ["Dagger", "Knife"],
+    "multipliers": {
+      "pierce": 1.3,
+      "slash": 0.8,
+      "strike": 0.01,
+      "weight": 0.2
+    },
+    "scaling": {
+      "str": 1,
+      "dex": 4,
+      "int": 0.2
+    }
+  }
+}
